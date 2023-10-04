@@ -1,0 +1,204 @@
+body{
+    background-color: #f0f0f0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+}
+
+
+
+.row{
+    text-align: center;
+     flex-wrap: wrap;
+     background-color: #d59d32;
+    padding: 7px 0 7px 0;
+    color: white;
+    position: relative;
+    position: ltr;
+    font-weight: 500;
+    margin: 0;
+
+}
+
+
+.container{
+    background-color: #ffffff;
+   width: 100%;
+   padding-bottom: 100px;
+   
+
+
+
+
+  
+   
+ 
+}
+
+section{
+  margin: 1px 200px 1px 200px;
+  box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+
+ 
+}
+.card{
+    padding: 10px;
+    margin: 10px;
+   
+
+}
+
+.card-body h1{
+    color: rgb(119, 103, 103);
+    font-size: 20px;
+ 
+}
+.card-body .button{
+    border: 1px solid rgb(236, 160, 160);
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    direction: rtl;
+}
+.card-body .button a{
+    text-decoration: none;
+    color: #d59d32;
+   
+}
+
+.card-body .button:hover{
+    background-color: azure;
+
+}
+p{
+    background-size: contain;
+    padding: 4px;
+    margin: 2px;
+}
+
+
+.form-group #select{
+    background-color:#f3f1f1;
+    padding: 7px;
+    border: 1px solid rgb(252, 238, 238);
+    cursor: pointer;
+    border-radius: 0.25rem;
+   width: 100%;
+   display: block;
+   color: #495057;
+   transition:0.15s ease-in-out;
+
+}
+
+
+.table-note{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+
+  
+   
+}
+
+
+
+
+
+table{
+    border-top: 1px solid #e8ebf1;
+    border-spacing: 2px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: inherit;
+    border-collapse: collapse;
+    
+  
+
+    
+
+   
+
+   
+}
+
+
+
+td, th {
+    border: 1px solid #fbfbfb;
+    padding: 15px;
+    text-align: center;
+ 
+  }
+
+  tr:nth-child(even) {
+    background-color:rgba(0,0,0,.05);
+
+  }
+
+
+  tr{
+    display: table-row;
+    background-color:#e3eaea;
+    vertical-align: inherit;
+    padding: 8px;
+  
+  }
+  /*           second-section     */
+.second-section{
+    color: red;
+    background-color: yellow;
+   
+}
+
+.table-head{
+    margin: 20px;
+
+ 
+}
+
+
+.table-head th{
+    color: #1f1d19;
+    padding: 10px;
+    background-color: #f3e6e6;
+  
+}
+
+.info .side{
+    padding: 10px 0 0 10px;
+
+  
+   
+}
+
+.side b{
+    width: 100%;
+    
+}
+.info .side p{
+    background-color: #fff1f6;
+    padding: 7px;
+    border: 1px solid #fff1f6;
+    border-radius: 4px;
+  
+  
+}
+
+
+.own{
+    text-align: center;
+    padding: 20px;
+}
+.own span{
+    color:#5d5d67;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tbody{
+    overflow-x: scroll;
+}
